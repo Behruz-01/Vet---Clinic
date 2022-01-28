@@ -1,0 +1,236 @@
+.inner{
+    display: flex;
+    align-items: center;
+    padding: 11px 0 9px 0;
+    // justify-content: space-between;
+}
+
+
+.inner__adress{
+    margin-left: 140px;
+}
+
+.inner__link{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333333;
+    position: relative;
+
+
+    
+
+
+    &::before{
+        content: "";
+        position: absolute;
+        right: 227px;
+        background-image: url(../images/house-top.svg);
+        background-size: contain;
+        width: 13px;
+        height: 13px;
+    }
+
+}
+
+
+
+
+.inner__links{
+    margin: 0 22px;
+    text-decoration: none;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    &:hover{
+        color: #FFBD54;
+    }
+
+    &:active{
+        color: #333333;
+        opacity: 0.6;
+    }
+    
+}
+
+
+
+.inner__links:nth-child(1){
+    margin-left: 128px;
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        right: 116px;
+        background-image: url(../images/phone-top.svg);
+        width: 14px;
+        height: 13px;
+    }
+}
+
+
+.inner__links:nth-child(2){
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 8px;
+         left: -10px;
+        background-image: url("../images/Ellipse\ 5\ \(1\).png");
+        width: 4px;
+        height: 4px;
+    }
+
+    &::after{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 8px;
+        right: -10px;
+        background-image: url("../images/Ellipse\ 5\ \(1\).png");
+        width: 4px;
+        height: 4px;
+    }
+}
+
+
+.inner__timer{
+    margin-left: 119px;
+    font-family: Futura ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 3px;
+        left: -20px;
+        background-image: url(../images/time-top.svg);
+        width: 13px;
+        height: 13px;
+    }
+}
+
+
+.inner__time{
+    margin-left: 17px;
+    font-family: Futura ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+    
+
+
+
+// bottom
+
+
+.bottom__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #fff;
+    
+}
+
+
+
+.bottom__image:hover{
+    opacity: 0.6;
+}
+
+.navbar__list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar__item{
+    margin-left: 55px;
+    border-bottom: 4px solid transparent;
+    &:hover{
+        border-bottom: 4px solid rgb(244, 255, 173);
+    }
+
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+
+.navbar__item:nth-child(1){
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        left: -22px;
+        background-image: url(../images/header-fish.svg);
+        background-size: contain;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.navbar__link{
+    text-decoration: none;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+
+.bottom__links{
+    text-decoration: none;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        left: -30px;
+        background-image: url("../images/pet.svg");
+        background-size: contain;
+        width: 23px;
+        height: 20px;
+    }
+}
+
+   
+
+

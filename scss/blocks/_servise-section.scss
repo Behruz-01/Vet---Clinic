@@ -1,0 +1,334 @@
+.servise__box{
+    padding-top: 191px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.servise__button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    top: 436px;
+    left: -50px;
+    background-color: transparent;
+   cursor: pointer;
+   &:hover{
+       background-color: #FFFFFF;
+   }
+
+   &:active{
+    opacity: 0.6;
+}
+}
+
+.servise__buttons{
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    top: 436px;
+    right: -80px;
+    background-color: transparent;
+   cursor: pointer;
+   &:hover{
+    background-color: #FFFFFF;
+    &:active{
+     opacity: 0.6;
+    }
+}
+}
+
+
+.servise__title{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    /* or 112% */
+    display: flex;
+    align-items: center;
+    display: block;
+    text-align: center;
+    color: #333333;
+}
+
+
+
+
+.servise__list{
+    display: flex;
+    margin: 0px auto;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+.servise__item{
+    list-style: none;
+    width: 190px;
+    background-color: #fff;
+   border: 1px solid #F3F3F3;
+    // margin-left: 10px;
+    border-radius: 5px;
+    &:hover{
+        opacity: 0.8;
+    }
+    
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.servise__item + .servise__item{
+    margin-left: 10px;
+}
+
+
+
+.servise__item:nth-child(1){
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/doktor-1\ \(1\).svg");
+    width: 54px;
+    height: 77px;
+    top: 32px;
+    left: 75px;
+    }
+
+    
+}
+
+.servise__item:nth-child(2){
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/doktor-2.svg");
+    width: 54px;
+    height: 77px;
+    top: 32px;
+    left: 75px;
+    }
+}
+
+
+
+.servise__item:nth-child(3){
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/Vector\ doktor-3.svg");
+    width: 54px;
+    height: 77px;
+    top: 32px;
+    left: 75px;
+}
+}
+
+
+.servise__item:nth-child(4){
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/doktor-4.svg");
+    width: 54px;
+    height: 77px;
+    top: 32px;
+    left: 75px;
+    }
+}
+
+
+.servise__item:nth-child(5){
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/doktor-5.svg");
+    width: 54px;
+    height: 77px;
+    top: 32px;
+    left: 75px;
+    }
+}
+
+
+.servise__item:nth-child(6){
+    position: relative;
+    &::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/doktor-6.svg");
+    width: 54px;
+    height: 77px;
+    top: 32px;
+    left: 75px;
+    }
+}
+
+
+
+
+
+
+
+.servise__link{
+    text-decoration: none;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    padding: 129px 32px 42px 35px;
+}
+
+.servise__linl--mod{
+    padding: 129px 20px 28px 20px;
+}
+
+.servise__linl--modifire{
+    padding: 140px 20px 30px;
+}
+
+
+
+
+
+
+
+
+.servise__inner{
+    display: flex;
+    // justify-content: space-between;
+    background-color:#fff ;
+}
+
+
+.servise__img{
+    background-color: #fff;
+    padding: 0px 8px ;
+}
+
+.servise__inside{
+    margin-left: 28px;
+    width: 495px;
+}
+
+
+
+.servise__head{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    /* or 56% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+
+.servise__text{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+
+    color: #949494;
+    margin-bottom: 33px;
+}
+
+// .servise__text:nth-child(2){
+//     margin-bottom: 33px;
+// }
+
+
+.servise__additional--yellow{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background-color:#FFBD54 ;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 36px 15px 60px;
+    margin-top: 40px;
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        left: 33px;
+        background-image: url("../images/servise-hause.svg");
+        width: 21px;
+        height: 21px;
+    }
+    
+}
+
+
+.servise__additionals--black{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background-color:#333333;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 36px 15px 60px;
+    position: relative;
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        left: 33px;
+        background-image: url("../images/servise-hause-2.svg");
+        width: 21px;
+        height: 21px;
+    }
+   
+}
+
+
+.servise__additional:hover{
+    background-color: #333333;
+    color: #FFBD54;
+}
+
+.servise__additional:active{
+    opacity: 0.6;
+}

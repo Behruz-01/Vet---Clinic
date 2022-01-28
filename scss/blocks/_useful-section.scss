@@ -1,0 +1,164 @@
+
+
+.useful__title--mod{
+    margin-bottom: 80px;
+    margin-top: 150px;
+}
+
+
+.useful__title{
+    text-align: center;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 20px;
+    color: #333333;
+    
+}
+  
+
+    
+
+
+
+
+.useful__list{
+    display: flex;
+    justify-content: space-between;
+   margin: 0px;
+   padding: 0px;
+}
+
+.useful__item{
+    list-style: none;
+    border: 1px solid #E4E4E2; 
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.useful__item:nth-child(2){
+    display: flex;
+    margin: 0 22px;
+    width: 640px;
+}
+
+
+.useful__inside{
+    width: 244px;
+    padding: 0 22px 35px 22px;
+}
+
+.useful__time{
+    display: block;
+    text-align: right;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+    
+
+
+
+
+.useful__title{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    /* or 114% */
+    color: #000000;
+}
+
+.useful__text{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #949494;
+    width: 270px;
+}
+
+.useful__link{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #333333;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    &:hover{
+        color: #FFBD54;
+    }
+
+    &:active{
+        color: #333333;
+    }
+    
+    &::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        left: -25px;
+        background-image: url("../images/pet.svg");
+        background-size: contain;
+        width: 23px;
+        height: 20px;
+    }
+}
+
+
+
+.useful__links{
+    color: #3D9CEA;
+}
+
+
+.useful__links:nth-child(2){
+    margin: 0 7px;
+}
+
+
+
+
+.useful__boxing{
+    padding: 88px 34px 96px 30px;
+    width: 270px;
+}
+
+.useful__span{
+    display: flex;
+    align-items: center;
+    padding-bottom: 33px;
+    margin-left: 30px;
+}
+
+
+.useful__times{
+    display: block;
+    text-align: right;
+    margin-left: 10px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+
+
+
+
+
+
